@@ -1,0 +1,5 @@
+require('ui.bar.allthebarss.applauncherbar')
+require('ui.bar.allthebarss.dashbar')
+require('ui.bar.allthebarss.tagbar')
+require('ui.bar.allthebarss.taskbar')
+require('ui.bar.allthebarss.signalsandwidgets')
