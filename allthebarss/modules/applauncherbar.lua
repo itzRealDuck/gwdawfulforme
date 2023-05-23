@@ -57,15 +57,6 @@ screen.connect_signal("request::desktop_decoration", function(s)
           applauncher,
 
         },
-        {
-          {
-            bg = beautiful.lbg,
-            shape = helpers.mkroundedrect(),
-            widget = wibox.container.background
-          },
-          spacing = dpi(beautiful.item_spacing),
-          layout = beautiful.fixed_direction,
-        },
         layout = beautiful.align_direction,
       },
       left = dpi(Side_padding),
